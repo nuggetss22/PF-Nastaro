@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
+.navBar-ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+	width: 131px;
+	height: 49px;
+	padding: 8px 8px 8px 8px;
+	background: #FFA0DF;
+	color: #000000;
+	border-color: #000000;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 51px 51px 51px 51px;
+	font-family: "Helvetica";
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 1.3;
+	text-align: center;
+}
+
+#header {
+	width: 1906px;
+	height: 158px;
+	padding: 8px 8px 8px 8px;
+	background: #FFFFFF;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	text-align: center;
+}
+
+.behind-screens-logo {
+	width: 877px;
+	height: 159px;
+	background: #00000000;
+}
+
+.search-1 {
+	width: 396px;
+	height: 49px;
+	background: #FFFFFF;
+	color: #C0C0C0;
+	border-color: #232323;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 32px 32px 32px 32px;
+	font-family: "Helvetica";
+	font-weight: 400;
+	font-size: 36px;
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+#movies picture img {
+	width: 250px;
+	height: 372px;
+	background: #E6E6E6;
+}
+
+#movies {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.movie-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 8px;
+}
+
+.actor-grid {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.actor-item-1 {
+	width: 204px;
+	height: 176px;
+	background: #E6E6E6;
+	border-radius: 88px 80px 80px 80px;
+}
+
+a {
+    display: block; 
+    margin-top: 10px;
+}
+
+#actors {
+    width: 35%; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+	display: flex;
+	justify-content: space-between; 
+	max-width: 1200px; 
+	margin: 20px auto;
+}
