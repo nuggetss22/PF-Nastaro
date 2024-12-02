@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link rel="shortcut icon" href="icons/bs_logo_favicon.png">
     <link rel="stylesheet" href="style.css">
     <title>Inicio</title>
@@ -11,42 +10,116 @@
 <body>
     <header id="header">
         <picture>
-            <img class="behind-screens-logo" src="images/logo.png" alt="">
+            <a href="index.html"><img class="behind-screens-logo" src="images/logo.png" alt=""></a>
         </picture>
         <nav>
             <ul class="navBar-ul">
-                <li><a href="#">inicio</a></li>
-                <li><a href="pages/movies.html">movies</a></li>
-                <li><a href="pages/actor-actress.html">actor/actress</a></li>
-                <li><a href="pages/series.html">series</a></li>
-                <li><a href="pages/social-media.html">social media</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="pages/movies.html">Películas</a></li>
+                <li><a href="pages/actor-drama.html">Drama Actores</a></li>
+                <li><a href="pages/series.html">Series</a></li>
+                <li><a href="pages/movie-drama.html">Drama Peliculas</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <form action="">
-            <input class="search-1" type="search" placeholder="search">
+    <main id="main">
+        <form action="" class="search-container">
+            <input class="search-1" type="search" placeholder="Buscar">
         </form>
         <section class="content">
             <section id="movies">
-                <picture class="movie-grid">
-                    <img src="images/pulp-fiction-poster.jpg" alt="">
-                    <img src="images/mamma-mia.jpg" alt="">
-                    <img src="images/perks-being-wallflower.jpg" alt="">
-                    <img src="images/ted-lasso.jpg" alt="">
-                    <img src="images/rick-n-morty.jpg" alt="">
-                    <img src="images/modern-family-season6.jpg" alt="">
-                </picture>
+                <div class="movie-grid">
+                    <div class="movie-item">
+                        <a href="">
+                            <img src="images/movies/pulp-fiction-poster.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="movie-item">
+                        <a href="">
+                            <img src="images/movies/mamma-mia.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="movie-item">
+                        <a href="">
+                            <img src="images/movies/perks-being-wallflower.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="movie-item">
+                        <a href="">
+                            <img src="images/series/ted-lasso.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="movie-item">
+                        <a href="">
+                            <img src="images/series/rick-n-morty.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="movie-item">
+                        <a href="">
+                            <img src="images/series/modern-family-season6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
             </section>
             <section id="actors">
                 <div class="actor-grid">
-                    <div class="actor-item-1">
-                        <img src="images/samuel-l-jackson.jpg" alt="">
-                        <a href="">Samuel L. Jackson</a>
+                    <div class="actor-item">
+                        <a href="">
+                            <img class="actor-pic" src="images/samuel-l-jackson.jpg" alt="">
+                            <div>Samuel L. Jackson</div>
+                        </a>
                     </div>
+                    <div class="actor-item">
+                        <a href="">
+                            <img class="actor-pic" src="images/index/actors/meryl-streep.jpg" alt="">
+                            <div>Meryl Streep</div>
+                        </a>
+                    </div>
+                    <div class="actor-item">
+                        <a href="">
+                            <img class="actor-pic" src="images/index/actors/steve-carrell.jpg" alt="">
+                            <div>Steve Carrell</div>
+                        </a>
+                    </div>
+                    <div class="actor-item">
+                        <a href="">
+                            <img class="actor-pic" src="images/index/actors/amanda-seyfried.jpg" alt="">
+                            <div>Amanda Seyfried</div>
+                        </a>
+                    </div>
+                    <div class="actor-item">
+                        <a href="">
+                            <img class="actor-pic" src="images/index/actors/ryan-gosling.jpg" alt="">
+                            <div>Ryan Gosling</div>
+                        </a>
+                    </div>
+                    <div class="actor-item">
+                        <a href="">
+                            <img class="actor-pic" src="images/index/actors/emily-blunt.jpg" alt="">
+                            <div>Emily Blunt</div>
+                        </a>
+                    </div>
+                    <div class="actor-item">
+                        <a href="">
+                            <img class="actor-pic" src="images/index/actors/john-krasinski.jpg" alt="">
+                            <div>John Krasinski</div>
+                        </a>
+                    </div>
+                    <div class="actor-item">
+                        <a href="">
+                            <img class="actor-pic" src="images/index/actors/zoe-kravitz.jpg" alt="">
+                            <div>Zoe Kravitz</div>
+                        </a>
+                    </div>
+                    <div class="actor-item">
+                        <a href="">
+                            <img class="actor-pic" src="images/index/actors/kristen-bell.jpg" alt="">
+                            <div>Kristen Bell</div>
+                        </a>
+                    </div>
+                </div>
             </section>
         </section>
-        
     </main>
 </body>
 </html>

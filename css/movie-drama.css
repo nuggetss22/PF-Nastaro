@@ -1,0 +1,89 @@
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f0f0f0;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+header {  
+    background: #fff;  
+    padding: 20px;  
+    text-align: center;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+}  
+
+nav ul {  
+    list-style: none;  
+    padding: 0;  
+}  
+
+nav ul li {  
+    display: inline;  
+    margin: 0 15px;  
+}  
+
+nav a {  
+    text-decoration: none;  
+    color: #333;  
+}  
+
+h1 {  
+    font-family: 'Arial Black', sans-serif;  
+    color: #f2a900; /* Yellow color */  
+}  
+
+main {  
+    display: flex;  
+    margin: 20px;  
+}  
+
+.content {  
+    flex: 3;  
+    padding-right: 20px;  
+}  
+
+.main-image {  
+    background-color: #ddd; /* Placeholder for image */  
+    width: 100%;  
+    height: 300px; /* Set height for the placeholder */  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}  
+
+.main-image img {  
+    max-width: 100%;  
+    max-height: 100%;  
+}  
+
+.text {  
+    background: #fff;  
+    padding: 20px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+}  
+
+.cast {  
+    flex: 1;  
+    margin-left: 20px;  
+}  
+
+.cast-item {  
+    display: flex;  
+    align-items: center;  
+    margin-bottom: 15px;  
+}  
+
+.cast-item img {  
+    width: 165px; /* Width as specified */  
+    height: 147px; /* Height as specified */  
+}  
+
+.cast-item h3 {  
+    width: 97px; /* Width as specified for heading */  
+    height: 62px; /* Height as specified for heading */  
+    margin-left: 10px;  
+    line-height: 62px; /* Center the text vertically */  
+    overflow: hidden; /* Hide overflow text */  
+    text-overflow: ellipsis; /* Show ellipsis for text overflow */  
+    white-space: nowrap; /* Prevent text from wrapping */  
+}

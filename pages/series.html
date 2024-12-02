@@ -1,49 +1,73 @@
 <!DOCTYPE html>
-<picture lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="../css/series.css">
+    <link rel="stylesheet" href="../css/movies.css">
     <title>Series</title>
 </head>
-<picture>
-    <header>
+<body>
+    <header id="header">
+        <picture>
+            <img class="behind-screens-logo" src="../images/logo.png" alt="">
+        </picture>
         <nav>
-            <ul>
-                <li><a href="../index.html">inicio</a></li>
-                <li><a href="movies.html">movies</a></li>
-                <li><a href="actor-actress.html">actor/actress</a></li>
-                <li><a href="#">series</a></li>
-                <li><a href="social-media.html">social media</a></li>
+            <ul class="navBar-ul">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="movies.html">Películas</a></li>
+                <li><a href="actor-actress.html">Actores/Actrices</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="social-media.html">Redes Sociales</a></li>
             </ul>
         </nav>
     </header>
-    <picture>
-        <picture>
-            <img class="img-ejemplo" src="../images/series/mr-robot.jpg" alt="">
-        </picture>
-        <img class="img-ejemplo" src="../images/series/atlanta.jpg">
-    </picture> 
-    <img class="img-ejemplo" src="../images/series/better-call-saul.jpg">
-</picture>
-<img class="img-ejemplo" src="../images/series/shameless.jpg">
-</picture> 
-<img class="img-ejemplo" src="../images/series/that-70s-show.jpg">
-</picture>
-<img class="img-ejemplo" src="../images/series/the-office.jpg">
-</picture>
-<img class="img-ejemplo" src="../images/series/bojack-horseman.jpg">
-</picture>
-<img class="img-ejemplo" src="../images/series/freaks-and-geeks.jpg">
-</picture>
-<img class="img-ejemplo" src="../images/series/only-murderers-in-the-building.jpg">
-</picture>
-<img class="img-ejemplo" src="../images/series/the-white-lotus.jpg">
-</picture>
-<img class="img-ejemplo" src="../images/series/boy-meets-world.jpg">
-</picture>
-<img class="img-ejemplo" src="../images/series/euphoria.jpg">
+    <main id="main">
+        <!-- Barra de búsqueda encima de las secciones -->
+        <form action="" class="search-container">
+            <input class="search-1" type="search" placeholder="Buscar">
+        </form>
+        <!-- Nueva sección de series -->
+        <section class="movie-section">
+            <h2>Series Destacadas</h2>
+            <div class="movie-grid">
+                <a href="#" class="movie-item">
+                    <img src="../images/series/mr-robot.jpg" alt="Serie 1">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/series/atlanta.jpg" alt="Serie 2">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/series/better-call-saul.jpg" alt="Serie 3">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/series/shameless.jpg" alt="Serie 4">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/series/that-70s-show.jpg" alt="Serie 5">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/series/the-office.jpg" alt="Serie 6">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/series/bojack-horseman.jpg" alt="Serie 7">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/series/freaks-and-geeks.jpg" alt="Serie 8">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/series/only-murderers-in-the-building.jpg" alt="Serie 9">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/series/the-white-lotus.jpg" alt="Serie 10">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/series/boy-meets-world.jpg" alt="Serie 11">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/series/euphoria.jpg" alt="Serie 12">
+                </a>
+            </div>
+        </section>
     </main>
 </body>
 </html>

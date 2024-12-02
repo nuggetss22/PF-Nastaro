@@ -1,40 +1,30 @@
-.img-ejemplo {
-	width: 250px;
-	height: 372px;
-	background: #E6E6E6;
-}/* Nueva sección de series */
-.series-section {
-    margin: 20px auto;
-    max-width: 1200px;
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* Diseño del header */
+#header {
+    width: 100%;
+    padding: 20px;
+    background: #FFFFFF;
     text-align: center;
+    border-bottom: 2px solid #000;
 }
 
-.series-section h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #333;
+.behind-screens-logo {
+    width: 800px;
+    height: auto;
 }
 
-.series-grid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr); /* 6 columnas */
-    grid-template-rows: repeat(2, auto); /* 2 filas */
-    gap: 15px;
-    justify-content: center;
-}
-
-.series-item img {
-    width: 250px; /* Ancho de los posters */
-    height: 372px; /* Alto de los posters */
-    object-fit: cover;
-    border-radius: 10px;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.series-item img:hover {
-    transform: scale(1.05); /* Efecto de agrandamiento */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
+/* Estilo de la barra de navegación */
 .navBar-ul {
     display: flex;
     justify-content: center;
@@ -66,20 +56,20 @@ li {
     font-size: 18px;
 }
 
-/* Nueva sección de películas== */
-.series-section {
+/* Nueva sección de películas */
+.movie-section {
     margin: 20px auto;
     max-width: 1200px;
     text-align: center;
 }
 
-.series-section h2 {
+.movie-section h2 {
     margin-bottom: 20px;
     font-size: 24px;
     color: #333;
 }
 
-.series-grid {
+.movie-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr); /* 6 columnas */
     grid-template-rows: repeat(2, auto); /* 2 filas */
@@ -87,7 +77,7 @@ li {
     justify-content: center;
 }
 
-.series-item {
+.movie-item img {
     width: 250px; /* Ancho de los posters */
     height: 372px; /* Alto de los posters */
     object-fit: cover;
@@ -95,7 +85,7 @@ li {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.series-item:hover {
+.movie-item img:hover {
     transform: scale(1.05); /* Efecto de agrandamiento */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }

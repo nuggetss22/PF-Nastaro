@@ -3,24 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/movies.css">
     <title>Movies</title>
 </head>
 <body>
-    <header>
+    <header id="header">
+        <picture>
+            <img class="behind-screens-logo" src="../images/logo.png" alt="">
+        </picture>
         <nav>
-            <ul>
-                <li><a href="../index.html">inicio</a></li>
-                <li><a href="#">movies</a></li>
-                <li><a href="actor-actress.html">actor/actress</a></li>
-                <li><a href="series.html">series</a></li>
-                <li><a href="social-media.html">social media</a></li>
+            <ul class="navBar-ul">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="#">Películas</a></li>
+                <li><a href="actor-actress.html">Actores/Actrices</a></li>
+                <li><a href="series.html">Series</a></li>
+                <li><a href="social-media.html">Redes Sociales</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <picture>
-            <img src="../images/pulp-fiction-poster.jpg" alt="">
-        </picture>
+    <main id="main">
+        <!-- Barra de búsqueda encima de las secciones -->
+        <form action="" class="search-container">
+            <input class="search-1" type="search" placeholder="Buscar">
+        </form>
+        <!-- Nueva sección de películas -->
+        <section class="movie-section">
+            <h2>Películas Destacadas</h2>
+            <div class="movie-grid">
+                <a href="#" class="movie-item">
+                    <img src="../images/movies/batman-2022.jpg" alt="Película 1">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/movies/blade-runner.jpg" alt="Película 2">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/movies/django.jpg" alt="Película 3">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/movies/girl-interrupted.jpg" alt="Película 4">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/movies/her.jpg" alt="Película 5">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/movies/how-to-lose-a-guy-in-1o-days.jpg" alt="Película 6">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/movies/it-ends-with-us.jpg" alt="Película 7">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/movies/knives-out.jpg" alt="Película 8">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/movies/lost-in-translation.jpg" alt="Película 9">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/movies/mamma-mia.jpg" alt="Película 10">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/movies/mean-girls.jpg" alt="Película 11">
+                </a>
+                <a href="#" class="movie-item">
+                    <img src="../images/movies/mid-90s.jpg" alt="Película 12">
+                </a>
+            </div>
+        </section>
     </main>
 </body>
 </html>
